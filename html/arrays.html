@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de arrays</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        let articulos=["Zapatilla","Polos","Camisas"];
+    </script>
+</head>
+
+<body>
+   
+    <div>
+        <h1>Iniciando un curso de javascript</h1>
+        <p>Este sera el inicio de muchos cursos mas de programacion, que me serviran para llegar a crear una aplicacion de envios de todo tipos de cosas a nivel mundial</p>
+    </div>
+    <script>
+        document.write("<p> el primer articulo es <strong>"+articulos[0]+"</strong></p>");
+        document.write("<p>Agregar un articulo al final<strong>: ");
+            articulos.push(prompt("Ingrese el articulo final: "));
+            document.write(articulos[articulos.length-1]+"<strong/></p>");
+
+    </script>
+</body>
+</html>
